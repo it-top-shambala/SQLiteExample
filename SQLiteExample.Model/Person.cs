@@ -8,6 +8,4 @@ public class Person
     public string? FullName => $"{this.LastName} {this.FirstName}";
 
     public DateTime DateOfBirth { get; set; }
-
-    public Dictionary<string, string>? Contacts { get; set; }
 }
