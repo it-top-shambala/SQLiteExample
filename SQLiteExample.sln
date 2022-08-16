@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SQLiteExample.App", "SQLiteExample.App\SQLiteExample.App.csproj", "{952886E0-EA15-4947-9C50-7D09C0F0E19E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SQLiteExample.DbLib", "SQLiteExample.DbLib\SQLiteExample.DbLib.csproj", "{08BB73AB-B688-4CBE-8EFD-56FBEB327008}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{952886E0-EA15-4947-9C50-7D09C0F0E19E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{952886E0-EA15-4947-9C50-7D09C0F0E19E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{952886E0-EA15-4947-9C50-7D09C0F0E19E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{952886E0-EA15-4947-9C50-7D09C0F0E19E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08BB73AB-B688-4CBE-8EFD-56FBEB327008}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08BB73AB-B688-4CBE-8EFD-56FBEB327008}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08BB73AB-B688-4CBE-8EFD-56FBEB327008}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08BB73AB-B688-4CBE-8EFD-56FBEB327008}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
