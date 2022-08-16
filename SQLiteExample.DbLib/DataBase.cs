@@ -9,17 +9,20 @@ public class DataBase
     private readonly SqliteConnection db;
     private const string Str = @"Data Source=D:\Programming\Education\ITStep\Shambala\SQLiteDemo\persons.db;";
 
-    public DataBase() => this.db = new SqliteConnection(Str);
+    public DataBase()
+    {
+        db = new SqliteConnection(Str);
+    }
 
     public IEnumerable<Person> GetAllPersons()
     {
         var persons = new List<Person>();
 
-        this.db.Open();
+        db.Open();
 
-        var sql = @"SELECT first_name, last_name, date_of_birth FROM tab_persons";
+        const string sql = "SELECT first_name, last_name, date_of_birth FROM tab_persons";
 
-        var command = new SqliteCommand(sql, this.db);
+        var command = new SqliteCommand(sql, db);
         var result = command.ExecuteReader();
         if (result.HasRows)
         {
@@ -38,7 +41,7 @@ public class DataBase
             throw new Exception("Bad request to DB");
         }
 
-        this.db.Close();
+        db.Close();
 
         return persons;
     }

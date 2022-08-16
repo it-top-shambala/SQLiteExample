@@ -5,7 +5,7 @@ public class Person
     public string? FirstName { get; set; }
     public string? LastName { get; set; }
 
-    public string? FullName => $"{this.LastName} {this.FirstName}";
+    public string? FullName => $"{LastName} {FirstName}";
 
     public DateTime DateOfBirth { get; set; }
 }
