@@ -7,4 +7,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\SQLiteExample.DbLib\SQLiteExample.DbLib.csproj" />
+    <ProjectReference Include="..\SQLiteExample.Model\SQLiteExample.Model.csproj" />
+  </ItemGroup>
+
 </Project>

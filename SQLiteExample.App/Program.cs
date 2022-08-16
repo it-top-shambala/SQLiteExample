@@ -1,3 +1,9 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿using SQLiteExample.DbLib;
 
-Console.WriteLine("Hello, World!");
+var db = new DataBase();
+var persons = db.GetAllPersons();
+
+foreach (var person in persons)
+{
+    Console.WriteLine($"{person.FullName}, {person.DateOfBirth}");
+}
