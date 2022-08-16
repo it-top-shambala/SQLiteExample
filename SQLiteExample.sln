@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SQLiteExample.App", "SQLite
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SQLiteExample.DbLib", "SQLiteExample.DbLib\SQLiteExample.DbLib.csproj", "{08BB73AB-B688-4CBE-8EFD-56FBEB327008}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SQLiteExample.Model", "SQLiteExample.Model\SQLiteExample.Model.csproj", "{EF13836C-D036-4FE4-902E-04B8BF66F478}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{08BB73AB-B688-4CBE-8EFD-56FBEB327008}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{08BB73AB-B688-4CBE-8EFD-56FBEB327008}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{08BB73AB-B688-4CBE-8EFD-56FBEB327008}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF13836C-D036-4FE4-902E-04B8BF66F478}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF13836C-D036-4FE4-902E-04B8BF66F478}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF13836C-D036-4FE4-902E-04B8BF66F478}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF13836C-D036-4FE4-902E-04B8BF66F478}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
